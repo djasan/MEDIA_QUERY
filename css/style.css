@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 1, 5rem;
+}
+#block {
+  width: 200px;
+  height: 200px;
+
+  background-color: aquamarine;
+}
+
+/* format mobile */
+#hello {
+    font-size: 1, 5rem;
+   color: brown;
+  }
+ 
+
+ 
+  @media screen and (min-width: 576px) {
+    #bloc {
+      width: 80%;
+    }
+
+    /* format tablette */
+    #hello {
+        font-size: 2, 5rem;
+        color: rgb(41, 156, 56);
+    
+      }
+
+    /*Format desktop(au dessus de 1024px)*/
+  }
+  @media screen and (min-width: 1024px) {
+    #block {
+      width: 100%;
+    }
+  }
+
+  #hello {
+    font-size: 3, 5rem;
+   color: rgb(69, 42, 165);
+  }
+
+
+  /* mes média devront être systématiquement en bas de pages en ordre croissant, attention à l'espace avant la parenthese, deux espaces */
+
